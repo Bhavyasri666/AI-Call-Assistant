@@ -1,0 +1,28 @@
+{
+  "completedAt": "2026-10-24T15:56:48.113Z",
+  "total": 100,
+  "success": 95,
+  "failed": 5,
+  "failures": [
+    {
+      "file": "T030.txt",
+      "error": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    },
+    {
+      "file": "T075.txt",
+      "error": "Gemini took over 120 seconds to respond. Please try again."
+    },
+    {
+      "file": "T076.txt",
+      "error": "Gemini took over 120 seconds to respond. Please try again."
+    },
+    {
+      "file": "T081.txt",
+      "error": "Gemini took over 120 seconds to respond. Please try again."
+    },
+    {
+      "file": "T084.txt",
+      "error": "Gemini took over 120 seconds to respond. Please try again."
+    }
+  ]
+}
