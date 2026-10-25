@@ -10,7 +10,7 @@ const TRANSCRIPTS_DIR = path.join(
   "transcripts"
 );
 
-const API_URL = "http://localhost:5000/api/summarize";
+const API_URL = "https://ai-call-assistant-x06j.onrender.com/api/summarize";
 const FAILED_IDS = ["T030", "T075", "T076", "T081", "T084"];
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

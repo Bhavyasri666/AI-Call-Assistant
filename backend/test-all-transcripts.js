@@ -9,7 +9,7 @@ const TRANSCRIPTS_DIR = path.join(
   "cold-call-transcripts-100",
   "transcripts"
 );
-const API_URL = "http://localhost:5000/api/summarize";
+const API_URL = "https://ai-call-assistant-x06j.onrender.com/api/summarize";
 const DELAY_MS = 2000;
 
 const sleep = (ms) =>
