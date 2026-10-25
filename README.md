@@ -379,17 +379,26 @@ The project also demonstrates the importance of backend validation, external API
 
 ## 17. Screenshots
 
-Add screenshots of the working application in this section to demonstrate the user interface and its main features.
+### 1. Main Application Interface
+![Home Page](screenshots/home.png)
 
-Suggested screenshots:
+### 2. Main Interface - Additional View
+![Home Page 2](screenshots/home2.png)
 
-1. Main application interface.
-2. Transcript analysis results.
-3. Saved call records.
-4. Call-stage update functionality.
-5. Successful backend or dataset testing results.
+### 3. AI-Generated Call Summary
+![Call Summary](screenshots/call%20summary.png)
 
-Replace this section with your actual screenshots or links once they have been added to the repository.
+### 4. Past Call History
+![Past Call History](screenshots/past%20call%20history.png)
+
+### 5. Supabase Query Results
+![Supabase Query](screenshots/supabasequery.png)
+
+### 6. Supabase Query - Additional View
+![Supabase Query 2](screenshots/supabase%20query.png)
+
+### 7. Call Transcript
+![Call Transcript](screenshots/call%20transcript.png)
 
 ---
 
