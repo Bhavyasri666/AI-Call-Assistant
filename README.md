@@ -391,13 +391,10 @@ The project also demonstrates the importance of backend validation, external API
 ### 4. Past Call History
 ![Past Call History](screenshots/past%20call%20history.png)
 
-### 5. Supabase Query Results
-![Supabase Query](screenshots/supabasequery.png)
-
-### 6. Supabase Query - Additional View
+### 5. Supabase Query - Additional View
 ![Supabase Query 2](screenshots/supabase%20query.png)
 
-### 7. Call Transcript
+### 6. Call Transcript
 ![Call Transcript](screenshots/call%20transcript.png)
 
 ---
