@@ -157,18 +157,19 @@ This architecture separates the user interface, business logic, AI integration, 
 
 ## 7. Application Workflow
 
-The typical workflow is:
+Open the deployed application using the Vercel URL.
 
-1. Start the backend server.
-2. Start the frontend development server.
-3. Open the application in a browser.
-4. Enter a transcript or select a transcript for analysis.
-5. Submit the transcript for processing.
-6. Allow the backend to request analysis from the Gemini API.
-7. Review the generated summary, stage, outcome, and next step.
-8. Save and retrieve the analysis through Supabase.
-9. Update the call stage when necessary.
-10. Refresh the application to verify that saved records remain available.
+Enter a cold-call transcript or select an available transcript.
+
+Submit the transcript for AI-powered analysis.
+
+Review the generated summary, conversation stage, prospect words, call outcome, and recommended next step.
+
+Verify that the call record is saved in Supabase.
+
+Update the call stage when necessary.
+
+Open the call history and confirm that saved records remain available after refreshing the page.
 
 ## 8. API Endpoints
 
@@ -262,10 +263,9 @@ Install the following before running the project:
 Clone the repository if it has been published to GitHub:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/Bhavyasri666/AI-Call-Assistant.git
 cd AI-Call-Assistant
 ```
-
 Alternatively, open the existing project folder directly in Visual Studio Code.
 
 ### Step 2: Configure the Backend
@@ -280,14 +280,12 @@ npm install
 Create a `.env` file inside the `backend` folder and configure the environment variables required by `server.js`.
 
 ```env
-SUPABASE_URL=your_supabase_project_url
+
+SUPABASE_URL=your_supabase_URL
 SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
 GEMINI_API_KEY=your_gemini_api_key
 GEMINI_MODEL=gemini-3.1-flash-lite
 ```
-
-Replace the example values with your own credentials. Do not publish actual API keys or service-role credentials.
-
 Start the backend:
 
 ```bash
@@ -363,8 +361,7 @@ Possible future improvements include:
 - Exporting call reports to CSV or PDF.
 - Advanced analytics for identifying common customer objections.
 - Automated evaluation of AI output against manually labelled data.
-- Deployment to a cloud hosting platform for public access.
-
+- Enhanced production deployment with authentication, monitoring, improved security, and scalability.
 ## 15. Learning Outcomes
 
 This project provides practical experience in full-stack web development, REST API design, generative AI integration, database connectivity, structured data processing, error handling, and dataset-based testing.
@@ -398,7 +395,12 @@ The project also demonstrates the importance of backend validation, external API
 ![Call Transcript](screenshots/call%20transcript.png)
 
 ---
+## Live Demo and Repository
 
+- **Live Application:** https://ai-call-assistant-qltudcotc-bhavya910.vercel.app/
+- **Backend Health Check:** https://ai-call-assistant-x06j.onrender.com/health
+- **GitHub Repository:** https://github.com/Bhavyasri666/AI-Call-Assistant
+  
 **Project:** AI Call Assistant  
 **Category:** Full-Stack Development / Artificial Intelligence  
 **Frontend:** React.js and Vite  
